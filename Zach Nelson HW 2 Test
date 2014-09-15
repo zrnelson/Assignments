@@ -1,0 +1,14 @@
+>>> a = getValue()
+Type a value3
+>>> b = getValue()
+Type a value4
+>>> validateValue(a)
+True
+>>> validateValue(b)
+True
+>>> findArea(a,b)
+12.0
+>>> findArea2()
+Type a value5
+Type a value6
+30.0

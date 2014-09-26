@@ -1,0 +1,36 @@
+>>> # inherit01
+>>> Zach = Student()
+called parent Person
+>>> Zach.setAttr("MIS", 4)
+>>> Zach.getAttr()
+('MIS', 4)
+>>> Ed = Employee()
+called parent Person
+>>> John = Employee()
+called parent Person
+>>> John.setAttr("MIS")
+>>> John.getAttr()
+'MIS'
+
+>>> # inherit02
+>>> c = Car(100, "Honda", "Civic", 2013, "Sept. 20, 2013")
+>>> t = Truck(200, "Ford", "F250", 2012, "May 5, 2014")
+>>> m = Motorcycle(50, "Honda" , "Bravo", 2014, "June 13, 2014")
+>>> c.sale_price()
+0.0
+>>> m.sale_price()
+0.0
+>>> t.sale_price()
+0.0
+>>> c.purchase_price()
+7990.0
+>>> m.purchase_price()
+3995.0
+>>> t.purchase_price()
+9980.0
+>>> c.repair_cost(300, "Oct. 15, 2013")
+Cost = $300 on the date of Oct. 15, 2013
+>>> c.repair_cost(100, "May 28, 2014")
+Cost = $100 on the date of May 28, 2014
+Cost = $300 on the date of Oct. 15, 2013
+>>> 

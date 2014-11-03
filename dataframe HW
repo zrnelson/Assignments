@@ -1,0 +1,28 @@
+#pd.read_csv('c:/lkjalkajds)
+import csv
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+from urllib import request
+
+# Retrieve the webpage as a string
+webpage = "https://data.consumerfinance.gov/api/views/x94z-ydhh/rows.csv?accessType=DOWNLOAD"
+
+filename = "Consumer_Complaints.csv"
+response = request.urlopen(webpage)
+csv1 = response.read()
+
+# Save the string to a file
+csvstr = str(csv1).strip("b'")
+
+lines = csvstr.split("\\n")
+f = open(filename, "w")
+for line in lines:
+   f.write(line + "\n")
+f.close()
+
+df = pd.read_csv(filename, encoding='latin1')
+
+print(df.iloc[2])
+print(" ")
+print(df.iloc[10])

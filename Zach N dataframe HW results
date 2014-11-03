@@ -1,0 +1,32 @@
+runfile('/Users/zacharynelson/readcsv.py', wdir='/Users/zacharynelson')
+Complaint ID                                             1093326
+Product                                                 Mortgage
+Sub-product                                         FHA mortgage
+Issue                   Loan modification,collection,foreclosure
+Sub-issue                                                    NaN
+State                                                         NJ
+ZIP code                                                    8879
+Submitted via                                                Web
+Date received                                         10/30/2014
+Date sent to company                                  10/30/2014
+Company                                              Wells Fargo
+Company response                         Closed with explanation
+Timely response?                                             Yes
+Consumer disputed?                                           NaN
+Name: 2, dtype: object
+ 
+Complaint ID                                        1093312
+Product                                     Debt collection
+Sub-product                                         Medical
+Issue                   Improper contact or sharing of info
+Sub-issue                 Contacted me after I asked not to
+State                                                    NE
+ZIP code                                              68164
+Submitted via                                           Web
+Date received                                    10/30/2014
+Date sent to company                             10/30/2014
+Company                                    AR Solutions Inc
+Company response                    Closed with explanation
+Timely response?                                        Yes
+Consumer disputed?                                      NaN
+Name: 10, dtype: object
